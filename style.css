@@ -1,6 +1,15 @@
 .body {
 width: 100%; 
+}
 
+/* Public Voice Title Elements */
+.title {
+  text-align: center;
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  -webkit-text-stroke: 3px black;
 }
 
 .center {
@@ -19,9 +28,10 @@ box-shadow:inset 0px 34px 0px -15px #6fbfd3;
   font-family:Arial;
   font-size:30px;
   font-weight:bold;
-  padding:9px 23px;
+  padding:9px;
   text-decoration: none;
   transition: background-color 0s ease-in-out;
+  border-radius: 40px;
 }
 
 /* Color change to button upon hover*/
